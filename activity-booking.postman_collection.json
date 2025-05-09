@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"testuser2@gmail.com\",\r\n    \"password\" :\"123456Tt\"\r\n}",
+							"raw": "{\r\n    \"email\": \"munzirchnr@gmail.com\",\r\n    \"password\" :\"munzir123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -44,7 +44,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"testuser2\",\r\n    \"email\" : \"testuser2@gmail.com\",\r\n    \"phone\" : 9089787952,\r\n    \"password\": \"123456Tt\"\r\n}",
+							"raw": "{\r\n    \"name\": \"newuser1\",\r\n    \"email\" : \"newuser1@gmail.com\",\r\n    \"phone\" : 8574525892,\r\n    \"password\": \"123456Tt\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -95,7 +95,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"title\": \"dummy\",\r\n    \"description\": \"Exciting 5-a-side football tournament for all levels.\",\r\n    \"location\": \"dummy\",\r\n    \"date\": \"2025-05-20\",\r\n    \"time\": \"15:00\"\r\n}",
+							"raw": "{\r\n    \"title\": \"dummy2\",\r\n    \"description\": \"Exciting 5-a-side football tournament for all levels.\",\r\n    \"location\": \"dummy2\",\r\n    \"date\": \"2025-05-20\",\r\n    \"time\": \"15:00\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
