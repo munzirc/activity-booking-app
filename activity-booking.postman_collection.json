@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "38b84e96-adc3-4d3c-867b-4484e05e2578",
+		"name": "Activity Booking App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29477875"
+	},
+	"item": [
+		{
+			"name": "User APIs",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"testuser2@gmail.com\",\r\n    \"password\" :\"123456Tt\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/api/auth/login",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"testuser2\",\r\n    \"email\" : \"testuser2@gmail.com\",\r\n    \"phone\" : 9089787952,\r\n    \"password\": \"123456Tt\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/api/auth/register",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Activities APIs",
+			"item": [
+				{
+					"name": "Get all Activities",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/api/activity",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"api",
+								"activity"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post a Activity",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"dummy\",\r\n    \"description\": \"Exciting 5-a-side football tournament for all levels.\",\r\n    \"location\": \"dummy\",\r\n    \"date\": \"2025-05-20\",\r\n    \"time\": \"15:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/api/activity",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"api",
+								"activity"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Booking APIs",
+			"item": [
+				{
+					"name": "Get My Bookings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/api/booking",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"api",
+								"booking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Book Activity",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/api/booking/681cda5f3c184fbc55e29a5b",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"api",
+								"booking",
+								"681cda5f3c184fbc55e29a5b"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

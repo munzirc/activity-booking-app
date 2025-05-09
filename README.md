@@ -1,4 +1,4 @@
-# Activity Booking API
+# Activity Booking APP
 
 A simple REST API backend for a **Basic Activity Booking App** built with Node.js, Express, and MongoDB.
 
@@ -52,17 +52,17 @@ npm run dev
 The server will start at http://localhost:3000.
 
 ### 📬 API Endpoints
-User APIs
+### User APIs
 POST /api/auth/register → Register user
 
 POST /api/auth/login → Login user, returns JWT in HttpOnly cookie
 
-Activity APIs
+### Activity APIs
 POST /api/activity → Add new activity (authorized)
 
 GET /api/activity → Get all activities
 
-Booking APIs
+### Booking APIs
 POST /api/booking/:id → Book an activity (authorized)
 
 GET /api/booking → Get logged-in user’s bookings
@@ -70,9 +70,7 @@ GET /api/booking → Get logged-in user’s bookings
 ### 🛠 Postman Collection
 The Postman API collection (activity-booking.postman_collection.json) is included.
 You can import it into Postman to test all endpoints.
-```bash
-link: https://drive.google.com/file/d/11pKQQRDUj0wdQJ7-4YLELgumYaLKVYZP/view?usp=sharing
-```
+
 
 ### 🤝 Author
 Mahammad Munzir
